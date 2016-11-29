@@ -1,17 +1,17 @@
-# установка Laravel 5.3.16 Framework в проект
+# СѓСЃС‚Р°РЅРѕРІРєР° Laravel 5.3.16 Framework РІ РїСЂРѕРµРєС‚
 
-Рабочая среда выбрана PHPStorm:
-Создал новый Composer Project Laravel Framework 5.3.16 
-composer сразу загрузил framework в проект
+Р Р°Р±РѕС‡Р°СЏ СЃСЂРµРґР° РІС‹Р±СЂР°РЅР° PHPStorm:
+РЎРѕР·РґР°Р» РЅРѕРІС‹Р№ Composer Project Laravel Framework 5.3.16 
+composer СЃСЂР°Р·Сѓ Р·Р°РіСЂСѓР·РёР» framework РІ РїСЂРѕРµРєС‚
     
-Для удобства работы был установлен плагин laracasts/Laravel-5-Generators-Extended
-для этого ввел в Terminal:
+Р”Р»СЏ СѓРґРѕР±СЃС‚РІР° СЂР°Р±РѕС‚С‹ Р±С‹Р» СѓСЃС‚Р°РЅРѕРІР»РµРЅ РїР»Р°РіРёРЅ laracasts/Laravel-5-Generators-Extended
+РґР»СЏ СЌС‚РѕРіРѕ РІРІРµР» РІ Terminal:
 
 ```    
 composer require laracasts/generators --dev
 ```
     
-изменил в `app/Providers/AppServiceProvider.php`, соответствующий код:
+РёР·РјРµРЅРёР» РІ `app/Providers/AppServiceProvider.php`, СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёР№ РєРѕРґ:
 
 ```php
 public function register()
@@ -21,7 +21,7 @@ public function register()
         }
     }
 ```
-## Создание миграций
+## РЎРѕР·РґР°РЅРёРµ РјРёРіСЂР°С†РёР№
 ```
 php artisan make:migration:schema create_positions_table --schema="position:string"
 ```
@@ -34,13 +34,13 @@ php artisan make:migration:schema create_workers_table --schema="full_name:strin
 php artisan make:migration:schema create_compani_structures_table --schema="subordinate:integer:foreing, supervisor:integer:foreing"
 ```
 
-## Наполнение Базы данных
+## РќР°РїРѕР»РЅРµРЅРёРµ Р‘Р°Р·С‹ РґР°РЅРЅС‹С…
 
 
 
-## Еще
+## Р•С‰Рµ
 
 
 
-## Еще
+## Р•С‰Рµ
 
