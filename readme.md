@@ -86,12 +86,3 @@ php artisan make:migration:schema create_compani_structures_table --schema="subo
 ```
 
 ## Наполнение Базы данных
-
-
-
-## Еще
-
-
-
-## Еще
-
